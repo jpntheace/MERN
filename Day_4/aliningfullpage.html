@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .A{
+            display: grid;
+            height: 3cm;
+            width: 16cm;
+        }
+        .B
+        {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            height: 6cm;
+            width: 16cm;
+            margin-top: 10px;
+        }
+        .C{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            height: 3cm;    
+            width: 16cm;
+            margin-top: 10px;
+        }
+        .a{
+            background-color: aqua;
+
+
+        }
+        .b{
+            background-color: rgb(0, 128, 0);
+            margin-right: 1.5cm;
+            position: static;
+        }
+        .c{
+            position: static;
+            background-color: rgb(0, 128, 0);
+            margin-right: 1.5cm;
+            margin-left: 1.5cm;
+            
+        }
+        .d{
+            background-color: rgb(0, 128, 0);
+            position: static;
+            margin-left: 1.5cm;
+        }
+        .e{
+            background-color: pink;
+            margin-right: 1cm;
+        }
+        .f{
+            margin-left: 1cm;
+            margin-right: 1cm;
+            background-color: pink;
+        }
+        .g{
+            margin-left: 1cm;
+            margin-right: 1cm;
+            background-color: pink;
+        }
+        .h{
+            margin-left: 1cm;
+            background-color: pink;
+        }
+        @media screen  and (max-width: 1000px) {
+            .A{
+                display: grid;
+                height: 3cm;
+                width: 16cm;
+            }
+            .B
+            {
+                display: grid;
+                grid-template-columns: auto ;
+                height: 9cm;
+                width: 16cm;
+                margin-top: 10px;
+            }
+            .C{
+                display: grid;
+                grid-template-columns: auto auto;
+                height: 5cm;    
+                width: 16cm; 
+                margin-top: 10px;
+            }
+            .a{
+                background-color: aqua;
+            }
+            .b{
+                background-color: rgb(0, 128, 0);
+                margin-top: 10px;
+                margin-right: 0px;
+            }
+            .c{
+                background-color: rgb(0, 128, 0);
+                margin-top: 10px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .d{
+                background-color: rgb(0, 128, 0);
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 10px;
+                
+            }
+            .e{
+                background-color: pink;
+                margin-right: 1cm;
+                margin-bottom: 1cm;
+            }
+            .f{
+                margin-bottom: 1cm;
+                margin-left: 1cm;
+                margin-right: 0px;
+                background-color: pink;
+            }
+            .g{
+                margin-bottom: 1cm;
+                margin-right: 1cm;
+                margin-left: 0px;
+                background-color: pink;
+            }
+            .h{
+                margin-left: 1cm;
+                margin-bottom: 1cm;
+                background-color: pink;
+            }
+            
+        }
+        @media screen and (max-width: 600px) {
+            .A{
+                display: grid;
+                grid-template-rows: auto ;
+                height: 2cm;
+                width: 16cm;
+            }
+            .B{
+                display: grid;
+                grid-template-rows: auto auto auto;
+                height: 6cm;
+                width: 16cm;
+            }
+            .C{
+                display: grid;
+                grid-template-rows: auto auto auto auto;
+                grid-template-columns: auto ;
+                height: 8cm;
+                width: 16cm;
+
+            }
+            .a{
+                background-color: aqua; 
+            }
+            .b,.c,.d{
+                background-color: rgb(0, 128, 0);
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+            }
+            .e, .f, .g, .h{
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 10px;
+                background-color: pink;
+                width: 16cm;
+            }
+        }
+        </style>
+ </head>    
+ <body>
+    <div>
+
+        
+        <div class="A">
+            <div class="a"></div>
+        </div>
+        <div class="B">
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+        </div>
+        <div class="C">
+            <div class="e"></div>
+            <div class="f"></div>
+            <div class="g"></div>
+            <div class="h"></div>
+        </div>
+    </div>
+ </body>
+ </html>

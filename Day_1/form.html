@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            legend{color: aqua;}
+            fieldset{border-color: aqua;}
+            p{color: aqua;}
+        </style>
+    </head>
+    <body style="background-color: antiquewhite;">
+        <form style="background-color: black;"> 
+        <fieldset>
+            <center><h1 style="color: aliceblue;"><u>Form</u></h1></center> <br><br>    
+        <fieldset style="height: auto;width: auto;background-color: rgb(0, 0, 0);" >
+            <legend>Personal Details</legend>
+        <center>
+            <p style="color: aliceblue;">    
+        Enter first name:
+        <input type="text" id="fname" name="fname"/><br><br>
+        Enter last name:
+        <input type="text" id="lname" name="lname"/><br><br>
+        Selct your gender:
+        <input type="radio" id="gender" value="Male"/>Male
+        <input type="radio" id="gender" value="Female"/>Female<br><br>
+        Enter Email:
+        <input type="email"><br><br>
+        Enter your address:
+        <input type="text" id="address" name="address"/><br><br>
+            </p>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset style="background-color:rgb(0, 0, 0);">
+            <legend>Academic details</legend>
+            <center>
+                <p style="color: aliceblue;">
+                <label for="College">Select your College:</label>
+                <select name="College" id="College" aria-placeholder="College">
+                <option value="SKCET">SKCET</option>
+                <option value="PSG">PSG</option>
+                <option value="AMRITA">AMRITA</option>
+                <option value="KCT">KCT</option>
+                </select><br><br>
+
+                <label for="course">Select your course&nbsp;</label>
+            <input list="course" placeholder="course">
+
+            <datalist id="course">
+            <option value="ECE">
+            <option value="EEE">
+            <option value="CSE">
+            <option value="IT">
+            <option value="MECH">
+            </datalist>
+            <br>
+            <br>
+            Languages Known:
+            <input type="checkbox" id="Java" name="Java" value="Java"/>Java
+            <input type="checkbox" id="HTML" name="HTML" value="HTML"/>HTML
+            <input type="checkbox" id="C++" name="C++" value="C++"/>C++
+            <br><br>
+            <label for="year">Select your Current Year</label>
+            <input list="year" placeholder="Year">
+            <datalist id="year">
+                <option value="I Year">
+                    <option value="II Year">
+                        <option value="III Year">
+                            <option value="IV Year">
+                            </datalist><br><br>
+                            Choose your Color: 
+                            <input type="color"><br><br>
+
+                           <select 
+                        </p>
+                        </center>
+                    </fieldset>
+                    <br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Extra</legend>
+                    <center>
+                    <p style="color: aliceblue;">
+                    Select Date:
+                    <input type="date">
+                    <br>
+                    <br>
+                    Select Time:
+                    <input type="time">
+                    <br>
+                    <br>
+                    Select Week
+                    <input type="week">
+                    <br>
+                    <br>
+                    Select Number
+                    <input type="number">
+                    <br>
+                    <br>
+                    Select range:
+                    <input type="range">
+                    <br>
+                    <br>
+                    Select File:
+                    <input type="file">
+                    <br>
+                    <br>
+                    Select audio 
+                    <audio controls>
+                        <source src="" type="audio/mp3">
+                        This browser doesnot support audio of this format.
+                    </audio>
+                    <br>
+                    <br>
+                    <video controls>
+                        <source src="C:\Users\prema\OneDrive\Desktop\Ayalaan (2024) Tamil WEB-DL 1080p (DD+5.1 ATMOS 448Kb.mkv" type="video/mp4" style="height: 0%; width: 0%;">
+                        This browser doesnot support video of this format.
+                    </video>
+                </p>
+                    </center>
+                </fieldset>
+                <br>
+                <br>
+                <center><input type="button" id="button" value="Submit" style="border-radius: 20px; background-color: aqua;"><br><br></center>
+            </form>
+            </body>
+            </html>

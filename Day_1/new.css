@@ -1,0 +1,16 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+table,th,td
+{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+th{
+    background-color: red;
+}
+tr{
+    background-color: aqua;
+}

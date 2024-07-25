@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .box{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                margin: 35px;
+            }
+            @media screen and (max-width: 1000px)
+            {
+                .box{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+            @media screen and (max-width: 500px)
+            {
+                .box{
+                    display: grid;
+                    grid-template-columns: auto;
+                }
+            }
+            
+            
+            .a{
+                height: 5cm;
+                margin: 35px;
+                width: 5cm;
+                background-color: aqua;
+            }
+            .b{
+                height: 5cm;
+                margin: 35px;
+                width: 5cm;
+                background-color: yellow;
+            }
+            .c{
+                height: 5cm;
+                width: 5cm;
+                margin: 35px;
+                background-color: pink;
+            }
+            .d{
+                height: 5cm;
+                width: 5cm;
+                margin: 35px;
+                background-color: red;
+            }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="box">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+</body>
+</html>

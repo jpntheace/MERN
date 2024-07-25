@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            font-size: 50px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            text-align: center;
+            padding: 400px;
+        
+        }
+        .a{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            border: 2px solid black;
+            background-color: rgb(250, 255, 96);
+        }
+        .b
+        {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            border: 2px solid black;
+            background-color: gray;
+        }
+        .c
+        {
+            border: 2px solid black;
+            background-color: rgb(39, 82, 183);
+        }
+        .d
+        {
+            border: 2px solid black;
+            background-color: rgb(232, 130, 72);
+        }
+        .e
+        {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            border: 2px solid black;
+            background-color: rgb(134, 178, 67);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">1</div>
+        <div class="b">2</div>
+        <div class="c">3</div>
+        <div class="d">4</div>
+        <div class="e">5</div>
+
+    </div>
+</body>
+</html>

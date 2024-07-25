@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/161/441/small_2x/hand-drawn-thanksgiving-food-background-free-vector.jpg);
+            background-size: cover;
+        }
+        li
+        {
+            float: right;
+            list-style-type: none;
+            display: inline;
+            padding: 1%;
+            padding-top: 2%;
+        }
+        a{
+            color: rgb(255, 255, 255);
+        }
+        a:hover
+        {
+            color:rgb(0, 0, 0);
+        }
+        #header
+        {
+            background-color: rgba(101, 99, 99, 0.5);
+            height: 2cm;
+        }
+        #blog
+        {
+            float:left;
+            font-size: 25px;
+            font-weight: bolder;
+            padding-top: 1.5%;
+            padding-left: 0.2%;
+            color: white;
+        }
+        h1
+        {
+            text-align: center;
+        }
+        #tt
+        {
+            text-decoration: underline;
+        }
+        #grid
+        {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto;
+
+        }
+        .a{
+            margin: 50px;
+        }
+        .b{
+            margin: 50px;
+            font-weight: bold;
+        }
+        .c{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            margin: 50px;
+            padding-top: 70px;
+            font-weight: bold;
+        }
+        .d{
+            margin: 50px;
+        }
+        .e{
+            margin: 50px;
+            font-weight: bold;
+        }
+        img
+        {
+            height:100%;
+            width: 100%;
+        }
+        li>a{
+            font-weight: bold;
+        }
+        .foot{
+            background-color: rgba(97, 96, 96, 0.5);
+            height: 2cm;
+            text-align: center;
+        }
+        #copy
+        {
+            font-weight: bold;
+            padding-top: 30px;
+        }
+        .img
+        {
+            height:3%;
+            width: 3%;
+            float: left;
+            padding-left: 0.2%;
+            padding-top: 1.15%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <ul>
+            <li class="img">
+                <img style="border-radius: 50%;" src="data:image/png;base64,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">
+            </li>
+            <li id="blog">FOOD BLOG</li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Ratings</a></li>
+            <li><a href="">Home</a></li>
+            
+        </ul>
+    </div>
+    <hr>
+    <h1 id="tt">Tasty Treats</h1>
+    <div id="grid">
+        <div class="a"><img  src="https://tse2.mm.bing.net/th?id=OIP.lEa60MoPEz7kNWZQBc_a3wHaEo&pid=Api&P=0&h=180"></div>
+        <div class="b"><p>Burgers have made their way to our breakfast, lunch and dinner menus. They're now part of weddings, birthdays, anniversaries and even those first few dates. And whether you're a foodie or not you'll agree that nobody can ever get enough of a burger. To honour this great dish, we've put together our most popular burger recipes.The hamburger's international popularity is the result of the larger globalization of food that also includes the rise in global popularity of other national dishes, including the Italian pizza, Chinese fried rice and Japanese sushi.</p></div>
+        <div class="c">Omnivorous humans are highly adaptable and have adapted to obtain food in many different ecosystems. Humans generally use cooking to prepare food for consumption. The majority of the food energy required is supplied by the industrial food industry, which produces food through intensive agriculture and distributes it through complex food processing and food distribution systems. This system of conventional agriculture relies heavily on fossil fuels, which means that the food and agricultural systems are one of the major contributors to climate change, accounting for as much as 37% of total greenhouse gas emissions.The food system has significant impacts on a wide range of other social and political issues, including sustainability, biological diversity, economics, population growth, water supply, and food security. Food safety and security are monitored by international agencies like the International Association for Food Protection, the World Resources Institute, the World Food Programme, the Food and Agriculture Organization, and the International Food Information Council.</div>
+        <div class="d"><img src="https://tse3.mm.bing.net/th?id=OIP.mtljlfDy9TR3utKyuxx8zQHaEo&pid=Api&P=0&h=180"></div>
+        <div class="e"><p>Pasta, any of several starchy food preparations (pasta alimentaria) frequently associated with Italian cuisine and made from semolina, the granular product obtained from the endosperm of a type of wheat called durum, and containing a large proportion of gluten (elastic protein). It is formed into ribbons, cords, tubes, and various special shapes, all originally developed for specific characteristics, such as ability to retain heat or hold sauces.</p></div>
+    </div>
+    <footer class="foot">
+        <p id="copy">&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
