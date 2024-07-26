@@ -14,7 +14,7 @@
             margin-left: 26%;
             color: white;
         }
-        .a:hover,.b:hover,.c:hover,,e:hover{
+        .a:hover,.b:hover,.c:hover,e:hover{
             color:blueviolet;
             text-decoration: underline;
         }
@@ -31,27 +31,53 @@
             color: white;
         }
         .name{
-                margin-left: 39%;
-                margin-top: 17%;
+                display: inline-block;
+                margin-left: 35%;
+                margin-top: 10%;
                 font-size: 200%;
-                color: white;
+                color: black;
+        }
+        .gri{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 5%;
+        }
+        .img{
+            border:  5px solid black;
+            border-radius: 15%;
+            background-size: cover;
+            background-image: url();
+            width: 300px;
+            height: 200px;
+            margin-top: 100px;
+            margin-right: -500px;
+            background-repeat: no-repeat;
         }
     </style>
 </head>
-<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtmICi2foGYs9hXGOnuh6IbrXdjZI51KVdKQ&s); background-size: cover;">
-    
+<body style="background-color: white;">
     <hr>
-    <nav>
-        <div class="nav" style="align-content:center;">
+    <nav style="background-color: rgb(20, 136, 182) ;">
+        <br>
+        
+        <div class="nav" style="align-content:center; background-color: rgb(20, 136, 182);">
             <a class="a" href="about_me.html">About Me</a>
             <a class="b" href="project.html">My Projects</a>
             <a class="e" href="intern.html">My Internships</a>
             <a class="c" href="contact.html">Contact</a>
         </div>
+        <br>
     </nav>
     <hr>
-    <div class="name">
-        <p style="margin-left: 12%; ">Hi, I'm </p><b>Jai Prakash Narayanan</b>
+    <h2 style="text-align: center; font-size: 280%;" >My Portfolio</h2>
+    <div class="gri">
+        
+        <div class="name">
+            <p style="margin-left: 12%; ">Hi, I'm </p><img src="J.gif" style="height: 150px; width: 200px;">
+        </div>
+        <div>
+            <img class="img" src="https://media.istockphoto.com/id/526947869/vector/man-silhouette-profile-picture.jpg?s=612x612&w=0&k=20&c=5I7Vgx_U6UPJe9U2sA2_8JFF4grkP7bNmDnsLXTYlSc=" alt="">
+        </div> 
     </div>
     <footer style="text-align: center; color: black; margin-top: 250px; background-color: wheat ;">For further queries <a href="contact.html">Contact Us</a>.</footer>
 </body>
